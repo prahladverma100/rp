@@ -24,7 +24,7 @@ const Section5 = () => {
 
                 <div className='flex flex-col lg:flex-row'>
                     <div className='w-[100%] lg:w-1/2'>
-                        <div className=' flex lg:justify-start justify-center pb-3'>
+                        <div className=' flex lg:justify-start justify-center pb-3' data-aos="fade-right">
                             <div className=' bg-[#E0C0E8] rounded-[15px] w-96 pt-5  ps-6 pb-4 mt-3 mb-3 relative'>
                                 <div className=' absolute right-[-6%] top-[35%]'>
                                     <svg width="29" height="36" viewBox="0 0 29 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -37,7 +37,7 @@ const Section5 = () => {
                                 <p className=' ff_Poppins text-[#333333] text-sm font-normal'>Good material, Thank you.</p>
                             </div>
                         </div>
-                        <div className=' flex lg:justify-end justify-center lg:pt-16 pt-2  lg:pb-5 pb-2'>
+                        <div className=' flex lg:justify-end justify-center lg:pt-16 pt-2  lg:pb-5 pb-2' data-aos="fade-right">
                             <div className=' bg-[#E0C0E8] rounded-[15px] w-96 pt-5  ps-6 pb-4 mt-3 mb-3 relative'>
                                 <div className=' absolute right-[-6%] top-[35%]'>
                                     <svg width="29" height="36" viewBox="0 0 29 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -50,7 +50,7 @@ const Section5 = () => {
                                 <p className=' ff_Poppins text-[#333333] text-sm font-normal'>Good material, Thank you.</p>
                             </div>
                         </div>
-                        <div className=' flex lg:justify-start justify-center pt-3'>
+                        <div className=' flex lg:justify-start justify-center pt-3' data-aos="fade-right">
                             <div className=' bg-[#E0C0E8] rounded-[15px] w-96 pt-5  ps-6 pb-4 mt-2 mb-4 relative'>
                                 <div className=' absolute right-[-6%] top-[35%]'>
                                     <svg width="29" height="36" viewBox="0 0 29 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -65,7 +65,7 @@ const Section5 = () => {
                         </div>
                     </div>
                     <div className='w-[100%]  lg:w-1/2'>
-                        <div className=' flex lg:justify-end justify-center lg:pb-3 pb-0'>
+                        <div className=' flex lg:justify-end justify-center lg:pb-3 pb-0' data-aos="fade-left">
                             <div className=' bg-[#E0C0E8] rounded-[15px] w-96 pt-5  ps-6 pb-4 mt-5 mb-3 relative'>
                                 <div className=' absolute rotate-180 left-[-6%]  top-[40%]'>
                                     <svg width="29" height="36" viewBox="0 0 29 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -79,8 +79,8 @@ const Section5 = () => {
                             </div>
                         </div>
 
-                        <div className=' flex lg:justify-center justify-center lg:pt-32 pt-5'>
-                            <div className=' bg-[#E0C0E8] rounded-[15px] w-96 pt-5  ps-6 pb-4 mt-3 mb-10 relative'>
+                        <div className=' flex lg:justify-center justify-center lg:pt-32 pt-5' data-aos="fade-left">
+                            <div className=' bg-[#E0C0E8] rounded-[15px] w-96 pt-5  ps-6 pb-4 mt-3 mb-6 relative'>
                                 <div className=' absolute rotate-180 left-[-6%]  top-[35%]'>
                                     <svg width="29" height="36" viewBox="0 0 29 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M3.06918 35.0981L27.6157 19.8492C28.8627 19.0746 28.855 17.2529 27.6015 16.4599L3.05492 0.932396C1.72272 0.089676 2.28202e-05 1.02791 2.27516e-05 2.59619L2.14063e-05 33.3726C2.13375e-05 34.9485 1.7376 35.9254 3.06918 35.0981Z" fill="#e1c0e8" />
@@ -94,7 +94,7 @@ const Section5 = () => {
                         </div>
                     </div>
                 </div>
-                <div className=' lg:pt-44 pt-20  z-10'>
+                <div className=' lg:pt-56 pt-20  z-10'>
                     <p className=' ff_Poppins font-bold lg:text-[28px] text-center sm:text-[20px] text-[15px] text-gradient md:pb-9 sm:pb-4 pb-0'>Discover exclusive deals and discounts </p>
                     <p className=' ff_Poppins md:text-[16px] text-[10px] font-normal text-center md:pt-10 sm:pt-5 pt-0'>add Link </p>
 

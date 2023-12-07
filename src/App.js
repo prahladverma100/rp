@@ -7,10 +7,19 @@ import Section4 from './component/Section4';
 import Section5 from './component/Section5';
 import Section6 from './component/Section6';
 import Section7 from './component/Section7';
+import Aos from 'aos';
+import "aos/dist/aos.css"
+import { useEffect } from 'react';
 
 function App() {
+    useEffect(() => {
+      Aos.init({
+        duration: 1500,
+      });
+    }, [])
+
   return (
-    <div>
+    <div className=' overflow-hidden'>
       <Hero_section />
       <Section2 />
       <Section3 />

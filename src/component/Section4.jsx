@@ -16,17 +16,17 @@ const Section4 = () => {
                     <div className='lg:flex gap-24 flex-row'>
 
                         <div className='w-full lg:w-1/2 '>
-                            <div className='flex flex-col'>
+                            <div className='flex flex-col' data-aos="fade-up-right">
                                 <div className=' flex  z-[1]'>
-                                    <img className=' z-[1]' src={living} alt="" />
+                                    <img className=' cursor-pointer z-[1]' src={living} alt="" />
                                 </div>
                                 <div>
                                     <p className='flex ff_Poppins font-medium   text-black text-3xl pt-4 text-gradient'>Living Room</p>
                                 </div>
                             </div>
-                            <div className='flex justify-end lg:pt-40 pt-10 flex-col'>
+                            <div className='flex justify-end lg:pt-40 pt-10 flex-col' data-aos="fade-up-right">
                                 <div className='flex'>
-                                    <img className='' src={dining} alt="" />
+                                    <img className=' cursor-pointer' src={dining} alt="" />
                                 </div>
                                 <p className='flex ff_Poppins font-medium  pt-4 text-black text-3xl text-gradient'>Kitchen</p>
                             </div>
@@ -34,15 +34,15 @@ const Section4 = () => {
                         </div>
 
                         <div className='w-full lg:w-1/2 '>
-                            <div className='flex justify-start flex-col lg:mt-[-150px] mt-[50px]'>
-                                <img src={office} alt="" />
+                            <div className='flex justify-start flex-col lg:mt-[-150px] mt-[50px]' data-aos="fade-up-left">
+                                <img className=' cursor-pointer' src={office} alt="" />
                                 <p className='flex ff_Poppins font-medium pt-4  text-black text-3xl text-gradient'>Office</p>
                             </div>
-                            <div className='flex justify-start  lg:mt-28 mt-10 lg:pb-10 pb-5 flex-col'>
-                                <img src={bathroom} alt="" />
+                            <div className='flex justify-start  lg:mt-28 mt-10 lg:pb-10 pb-5 flex-col' data-aos="fade-up-left">
+                                <img className=' cursor-pointer' src={bathroom} alt="" />
                                 <p className='flex ff_Poppins font-medium pt-4  text-black text-3xl text-gradient'>Bath</p>
-                            </div> <div className='flex justify-start lg:mt-28 mt-10 flex-col'>
-                                <img src={bedroom} alt="" />
+                            </div> <div className='flex justify-start lg:mt-28 mt-10 flex-col' data-aos="fade-up-left">
+                                <img className=' cursor-pointer' src={bedroom} alt="" />
                                 <p className='flex ff_Poppins font-medium pt-4  text-black text-3xl text-gradient'>Bed Room</p>
                             </div>
 

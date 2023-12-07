@@ -10,7 +10,7 @@ import hov_img from '../assets/image/png/hov_img.png'
 import Slider from "react-slick";
 
 const Section3 = () => {
-  var settings = { 
+  var settings = {
     infinite: true,
     speed: 1000,
     slidesToShow: 3,
@@ -47,11 +47,11 @@ const Section3 = () => {
         <img className=' w-full' src={line1} alt="" />
       </div>
       <div className=' container mx-auto xl:px-36 px-4'>
-        <div className='lg:pt-60 lg:pb-56 pt-24 pb-28'>
+        <div className='lg:pt-60 lg:pb-72 pt-20 pb-20'>
           <Slider {...settings}>
 
             <div className='w-4/12 flex justify-center'>
-              <div className=' lg:px-12 mx-3 box px-6 py-9  bg-white   rounded-[15px] border-[#888]'>
+              <div className=' lg:px-10 mx-3 box px-6 py-9  bg-white   rounded-[15px] border-[#888]'>
                 <p className=' ff_Poppins font-bold text-xl text-curnt text-[#888888]'>Exterior </p>
                 <img className=' w-full slider-img' src={house_img1} alt="" />
                 <div className='slider-btn1'>
@@ -60,7 +60,7 @@ const Section3 = () => {
               </div>
             </div>
             <div className='w-4/12 flex justify-center'>
-              <div className=' lg:px-12 mx-3 box px-6 py-9  bg-white  rounded-[15px] border-[#888]'>
+              <div className=' lg:px-10 mx-3 box px-6 py-9  bg-white  rounded-[15px] border-[#888]'>
                 <p className=' ff_Poppins font-bold text-xl text-curnt  text-[#888888]'>Interior </p>
                 <img className='  w-full slider-img' src={slider_img} alt="" />
                 <div className='slider-btn1'>
@@ -69,7 +69,7 @@ const Section3 = () => {
               </div>
             </div>
             <div className='w-4/12 flex justify-center'>
-              <div className=' lg:px-12 box mx-3 px-6 py-9 bg-white rounded-[15px] border-[#888]'>
+              <div className=' lg:px-10 box mx-3 px-6 py-9 bg-white rounded-[15px] border-[#888]'>
                 <p className=' ff_Poppins font-bold text-xl text-curnt text-[#888888]'>your perfect color </p>
                 <img className=' w-full slider-img' src={color_sample} alt="" />
                 <div className='slider-btn1'>
@@ -78,7 +78,7 @@ const Section3 = () => {
               </div>
             </div>
             <div className='w-4/12 flex justify-center'>
-              <div className=' lg:px-12 box mx-3 px-6 py-9  bg-white rounded-[15px] border-[#888]'>
+              <div className=' lg:px-10 box mx-3 px-6 py-9  bg-white rounded-[15px] border-[#888]'>
                 <p className=' ff_Poppins font-bold text-xl text-curnt text-[#888888]'>Exterior </p>
                 <img className=' w-full slider-img' src={house_img1} alt="" />
                 <div className='slider-btn1'>

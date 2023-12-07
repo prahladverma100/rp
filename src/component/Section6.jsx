@@ -7,7 +7,7 @@ import gradient_img from '../assets/image/png/gradient_img.png'
 const Section6 = () => {
     return (
         <div className='bg_img5 bg-no-repeat bg-cover lg:pt-48 pt-0 pb-2 z-10 relative'>
-          
+
             <div className=' absolute top-[-2px] w-full'>
                 <img className='w-full' src={line4} alt="" />
             </div>
@@ -15,10 +15,10 @@ const Section6 = () => {
                 <img src={gradient_img} alt="" />
             </div>
             <div className='container mx-auto px-4'>
-                <div className='lg:flex flex-wrap items-center  pt-24 pb-11'>
+                <div className='lg:flex flex-wrap items-center  pt-20 pb-11'>
                     <div className=' w-full lg:w-3/12'>
-                        <div className=' text-center flex justify-center'>
-                            <img className='lg:w-full w-96 ' src={bedroom1} alt="" />
+                        <div className=' text-center flex justify-center' data-aos="fade-left">
+                            <img className='lg:w-full w-96 cursor-pointer' src={bedroom1} alt="" />
                         </div>
                     </div>
                     <div className=' w-full lg:w-6/12 '>
@@ -26,8 +26,8 @@ const Section6 = () => {
                             <span className='flex lg:justify-end justify-center '>  Welcoming Home </span></h4>
 
                     </div>
-                    <div className=' w-full lg:w-3/12 flex justify-center'>
-                        <img className=' w-90 lg:mt-[-60px] mt-0' src={charming_yellow} alt="" />
+                    <div className=' w-full lg:w-3/12 flex justify-center' data-aos="fade-right">
+                        <img className=' w-90 lg:mt-[-60px] mt-0 cursor-pointer' src={charming_yellow} alt="" />
 
                     </div>
 
