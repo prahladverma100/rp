@@ -14,7 +14,7 @@ const Section7 = () => {
                     <div className='pb-4 ps-3 pe-3 rounded-[100px]  flex border border-violet-500 pt-4 md:w-96 w-full'>
                         <input className=' focus:outline-none placeholder: w-full  placeholder:text-[14px] placeholder:text-[#333] font-normal' type="text" placeholder='EMAIL' />
                     </div>
-                    <button className=' ff_Poppins font-bold text-white bg_gradient_color text-[14px] rounded-[100px] py-4 px-10'>SUBMIT</button>
+                    <button className=' ff_Poppins  font-bold text-white bg_gradient_color text-[14px] rounded-[100px] py-4 px-10'>SUBMIT</button>
                 </div>
             </div>
         </div>
